@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:600&display=swap');
+
+body {
+  background-color: rgb(70,70,70);
+}
+h1, h2 {
+  font-family: 'Special Elite', cursive;;
+  color: #d0cfcf;
+}
+
+p {
+  font-family:  'Asap', sans-serif;
+  color: #7a7d7d;
+}
+
+img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  box-shadow: 0 10px 30px rgba(220,220,220,.3);
+}
+
+
+
+.box-dark-grey {
+  background-color: #050505;
+  padding: 30px;
+  width: 85%;
+  margin: 15px auto;
+  border-radius: 7px;
+  box-shadow: 0 10px 30px rgba(200,200,200,.3);
+  text-align: center;
+  box-sizing: border-box;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+
+ul li {
+  padding-left: 0px;
+  font-size: 25px;
+  display: inline-block;
+}
+
+@media (max-width: 450px) {
+  ul li {
+    display: block;
+  }
+
+  img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+a {
+    color: #7a7d7d;
+}
+
+.list-grey:hover {
+  color: #a63446;
+  transition: 0.4s ease;
+}
+
+#button-white {
+  background-color: #d0cfcf;
+  color: #050505;
+  text-decoration: none;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+#button-white:hover {
+  background-color: #a63446;
+  color: #d0cfcf;
+  transition: 0.4s ease;
+}
